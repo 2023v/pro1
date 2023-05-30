@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body>
-    
-  </body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="pre-title">환영합니다</h1>
+        <h1 class="title">숫자 맞추기 게임</h1>
+        <h1 class="sub-title"><span class="red-text">당신의 직관력은?</span>업 & 다운</h1>
+        <div id="result-arer">
+            <img src="https://i.pinimg.com/236x/2a/f7/d1/2af7d1f94497bdbdcffde14df10b61f8.jpg" class="main-img">
+            <h1 class="result-text">재미있게 맞추어 보자</h1>
+        </div>
+    </div>
+    <h2 id="chance-area">남은 기회:</h2>
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+            <input type="number" id="user-input" class="form-control mb-10" placeholder="1부터 100까지 숫자를 입력"/>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
 </html>
